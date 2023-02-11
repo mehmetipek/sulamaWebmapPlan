@@ -1,0 +1,26 @@
+/* GOOGLE MAPS Styling */
+.mapWrapper{
+    width:50%;
+  }
+  
+  .mapWrapper iframe{
+    width:100%;
+  }
+  
+  
+  
+  /* LEAFLET Styling */
+  /* This is styling for the div where leaflet.js shows. If you don't give it a width and height it won't show. Use % for width to make it responsive */
+  #map{
+    width:100%;
+    height:500px;
+  }
+  
+  
+  /* Some layout stuff to make the two maps appear next to each other. Give each container 50% width and then float them. Both maps have a mapWrapper class around them.
+  */
+  
+  .mapWrapper{
+    width:50%;
+    float:left;
+  }
